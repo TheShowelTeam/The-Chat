@@ -1,6 +1,6 @@
 TEMPLATE = app
 CONFIG += console
 CONFIG -= qt
-LIBS += C:\Users\User\Desktop\Dront\Prog\The-Chat\WS2_32.Lib
+LIBS += C:\QtSDK\mingw\lib\libws2_32.a
 SOURCES += main.c
 
