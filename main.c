@@ -1,4 +1,3 @@
-
 #define WINVER 0x0501
 
 #include <windows.h>
@@ -7,10 +6,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 
-enum
-{
-    DEFAULT_PORT = 27015
-};
+#define DEFAULT_PORT "60000"
 
 int
 main(void)
@@ -42,6 +38,8 @@ main(void)
         WSACleanup();
         return 1;
     }
+
+    printf("nice\n");
 
     WSACleanup();
     return 0;
